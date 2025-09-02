@@ -1,8 +1,12 @@
 import ProjectCard from "./ProjectCard";
+import irrigationPic from "../../assets/images/irrigation.jpg";
+import wheelchairPic from '../../assets/images/wheelchair.jpg'
+import blogPic from '../../assets/images/blog.jpg'
+import travelloPic from '../../assets/images/trevallo.png'
 
 const projects = [
     {
-        image: "assets/images/irrigation.jpg",
+        image: irrigationPic,
         title: "Smart Irrigation System",
         description:
             "Developed a smart irrigation system integrating IoT and machine learning for real-time water management, cost reduction, and crop yield improvement. This innovative solution promotes sustainable farming practices.",
@@ -10,7 +14,7 @@ const projects = [
         disabled: false,
     },
     {
-        image: "assets/images/wheelchair.jpg",
+        image: wheelchairPic,
         title: "Voice-Controlled Wheelchair System",
         description:
             "Engineered a Luganda Voice-Controlled Wheelchair System to enhance mobility for Luganda-speaking individuals. The system integrates Luganda voice commands with speech intent recognition technology for wheelchair control.",
@@ -18,7 +22,7 @@ const projects = [
         disabled: false,
     },
     {
-        image: "assets/images/blog.jpg",
+        image: blogPic,
         title: "Blog Website",
         description:
             "Developed a blog platform with features for creating, editing, and deleting posts. The interface is responsive and user-friendly, utilizing Django, HTML, and Bootstrap for seamless user interaction.",
@@ -26,7 +30,7 @@ const projects = [
         disabled: true,
     },
     {
-        image: "assets/images/trevallo.png",
+        image: travelloPic,
         title: "Travello Web Application",
         description: "Coming soon...",
         link: "projects/wheelchair-project.html",
